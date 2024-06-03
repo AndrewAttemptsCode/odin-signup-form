@@ -5,7 +5,7 @@
   
 body {
     line-height: 1.5;
-    font-family: 'Roboto', sans-serif;
+    font-family: sans-serif;
     -webkit-font-smoothing: antialiased;
 }
   
@@ -45,4 +45,18 @@ p, h1, h2, h3, h4, h5, h6 {
     height: 100svh;
     background: url("../images/outer-space-earth-view.jpg") no-repeat;
     background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.credits {
+    color: white;
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+}
+
+.credits a:visited {
+    color: white;
 }
