@@ -43,12 +43,36 @@ p, h1, h2, h3, h4, h5, h6 {
 .image-sidebar {
     width: 35svw;
     height: 100svh;
+    position: relative;
     background: url("../images/outer-space-earth-view.jpg") no-repeat;
     background-size: cover;
 
     display: flex;
     justify-content: center;
     align-items: flex-end;
+}
+
+.logo-container {
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(30, 30, 30, 0.466);
+    font-family: norse;
+    font-size: 6rem;
+    color: white;
+}
+
+.logo-container::before {
+    content: "";
+    background: url(../images/odin-lined.png) no-repeat;
+    background-size: contain;
+    display: inline-block;
+    height: 127px;
+    width: 95px;
 }
 
 .credits {
