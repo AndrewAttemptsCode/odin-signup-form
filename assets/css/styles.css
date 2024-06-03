@@ -34,3 +34,15 @@ p, h1, h2, h3, h4, h5, h6 {
     font-style: normal;
 
 }
+
+.container {
+    display: flex;
+    min-height: 100svh;
+}
+
+.image-sidebar {
+    width: 35svw;
+    height: 100svh;
+    background: url("../images/outer-space-earth-view.jpg") no-repeat;
+    background-size: cover;
+}
