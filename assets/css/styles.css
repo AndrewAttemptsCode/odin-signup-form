@@ -119,12 +119,12 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .signup-form {
     display: flex;
-    justify-content: flex-start;
     flex-wrap: wrap;
 }
 
 .signup-form > [class^="signup-form"] {
-    padding: 15px 40px 15px 0;
+    width: 50%;
+    padding: 15px 0;
 }
 
 .signup-form label {
