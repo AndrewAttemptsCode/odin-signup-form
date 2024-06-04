@@ -24,7 +24,7 @@
             </div>
             <div class="signup-section">
                 <h2 class="signup-title">Let's do this!</h2>
-                <form action="#" method="post" class="signup-form">
+                <form action="#" method="post" class="signup-form" id="signup-form">
                     <div class="signup-form-name">
                         <label for="name">FIRST NAME *</label>
                         <input type="text" name="name" id="name" size="30" maxlength="245" aria-required="true" required>
@@ -49,10 +49,15 @@
                         <label for="pwd2">CONFIRM PASSWORD *</label>
                         <input type="password" name="pwd2" id="pwd2" size="30" maxlength="245" aria-required="true" required>
                     </div>
-                    <div class="signup-form-submit">
-                        <button type="submit">Create Account</button>
-                    </div>
                 </form>
+            </div>
+            <div class="footer-section">
+                <div class="signup-form-submit">
+                    <button type="submit" form="signup-form">Create Account</button>
+                </div>
+                <div class="account-active">
+                    Already have an account? <a href="#">Log In</a>
+                </div>
             </div>
         </div>
     </div>
