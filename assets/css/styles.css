@@ -105,10 +105,6 @@ p, h1, h2, h3, h4, h5, h6 {
     padding-bottom: 30px;
 }
 
-.signup-section {
-    padding: 30px 15px 30px 30px;
-}
-
 .signup-title {
     padding-bottom: 15px;
 }
@@ -138,6 +134,7 @@ p, h1, h2, h3, h4, h5, h6 {
 .signup-section {
     background: white;
     box-shadow: 5px 2px 5px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
 }
 
 .signup-form-submit button {
@@ -153,4 +150,21 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .signup-form-submit button:hover {
     background: rgb(59, 175, 220);
+}
+
+.account-active {
+    font-weight: 500;
+    padding-top: 30px;
+}
+
+:focus {
+    outline: 0;
+}
+
+.signup-form input[type="text"]:focus,
+.signup-form input[type="tel"]:focus,
+.signup-form input[type="email"]:focus,
+.signup-form input[type="password"]:focus {
+    background-color: rgba(29, 125, 170, 0.171);
+    border-radius: 5px;
 }
