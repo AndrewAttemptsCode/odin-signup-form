@@ -174,3 +174,33 @@ p, h1, h2, h3, h4, h5, h6 {
     background-color: rgba(139, 195, 74, 0.25);
 }
 
+.signup-form input + span {
+    position: relative;
+    display: block;
+}
+
+.signup-form input + span::before {
+    position: absolute;
+    bottom: -22px;
+    left: 0;
+}
+
+.signup-form input[type="text"]:invalid + span::before {
+    content: "* Letters only";
+    color: #b92326;
+}
+
+.signup-form input[type="email"]:invalid + span::before {
+    content: "* Incorrect format";
+    color: #b92326;
+}
+
+.signup-form input[type="tel"]:invalid + span::before {
+    content: "* Numbers only (11 digits)";
+    color: #b92326;
+}
+
+.signup-form input[type="password"]:invalid + span::before {
+    content: "* 8 characters or more";
+    color: #b92326;
+}
