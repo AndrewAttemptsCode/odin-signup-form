@@ -166,12 +166,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .signup-form input:focus {
     outline: none;
-    border-color: black;
-}
-
-.signup-form input:valid {
-    border: 1px solid #8BC34A;
-    background-color: rgba(139, 195, 74, 0.25);
+    border-color: rgb(39, 155, 200);
 }
 
 .signup-form input + span {
@@ -203,4 +198,9 @@ p, h1, h2, h3, h4, h5, h6 {
 .signup-form input[type="password"]:invalid + span::before {
     content: "* 8 characters or more";
     color: #b92326;
+}
+
+.account-active a {
+    color: rgb(39, 155, 200);
+    font-weight: 600;
 }
