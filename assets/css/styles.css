@@ -157,14 +157,20 @@ p, h1, h2, h3, h4, h5, h6 {
     padding-top: 30px;
 }
 
-:focus {
-    outline: 0;
+.signup-form input {
+    border-radius: 5px;
+    border: 1px solid #E5E7EB;
+    background-color: transparent;
+    padding: 8px;
 }
 
-.signup-form input[type="text"]:focus,
-.signup-form input[type="tel"]:focus,
-.signup-form input[type="email"]:focus,
-.signup-form input[type="password"]:focus {
-    background-color: rgba(29, 125, 170, 0.171);
-    border-radius: 5px;
+.signup-form input:focus {
+    outline: none;
+    border-color: black;
 }
+
+.signup-form input:valid {
+    border: 1px solid #8BC34A;
+    background-color: rgba(139, 195, 74, 0.25);
+}
+
